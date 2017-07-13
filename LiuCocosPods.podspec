@@ -92,7 +92,7 @@ Help developer to quickly intergrate variety of payment methods
   #
 
   s.source_files  = "LiuCocosPods", "LiuCocosPods/CocosPods/LZlib/*.{h,m}"
-  s.exclude_files = "CocosPods/LZlib"
+  # s.exclude_files = "CocosPods/LZlib"
 
   # s.public_header_files = "Classes/**/*.h"
 
