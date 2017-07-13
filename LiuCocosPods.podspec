@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LiuCocosPods"
   s.version      = "0.0.1"
-  s.summary      = "A short description of LiuCocosPods."
+  s.summary      = "测试一下描述"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -91,7 +91,7 @@ Help developer to quickly intergrate variety of payment methods
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LiuCocosPods", "LiuCocosPods/CocosPods/LZlib/*.{h,m}"
+  s.source_files  =  "CocosPods/LZlib/*.{h,m}"
   # s.exclude_files = "CocosPods/LZlib"
 
   # s.public_header_files = "Classes/**/*.h"
