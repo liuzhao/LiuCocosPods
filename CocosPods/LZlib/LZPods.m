@@ -10,4 +10,9 @@
 
 @implementation LZPods
 
+- (void)dealloc
+{
+    
+}
+
 @end

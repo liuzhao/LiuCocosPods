@@ -10,4 +10,6 @@
 
 @interface LZPods : NSObject
 
+@property (nonatomic, copy) NSString *name;
+
 @end
