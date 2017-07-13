@@ -13,6 +13,7 @@
 		25CA75361F1708650039E878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CA75341F1708650039E878 /* Main.storyboard */; };
 		25CA75381F1708650039E878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CA75371F1708650039E878 /* Assets.xcassets */; };
 		25CA753B1F1708650039E878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CA75391F1708650039E878 /* LaunchScreen.storyboard */; };
+		25CA75481F171CBB0039E878 /* LZPods.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CA75471F171CBB0039E878 /* LZPods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		25CA75371F1708650039E878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25CA753A1F1708650039E878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25CA753C1F1708650039E878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25CA75461F171CBB0039E878 /* LZPods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPods.h; sourceTree = "<group>"; };
+		25CA75471F171CBB0039E878 /* LZPods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPods.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				25CA752F1F1708650039E878 /* AppDelegate.m */,
 				25CA75311F1708650039E878 /* ViewController.h */,
 				25CA75321F1708650039E878 /* ViewController.m */,
+				25CA75451F171CA90039E878 /* LZlib */,
 				25CA75341F1708650039E878 /* Main.storyboard */,
 				25CA75371F1708650039E878 /* Assets.xcassets */,
 				25CA75391F1708650039E878 /* LaunchScreen.storyboard */,
@@ -77,6 +81,15 @@
 				25CA752C1F1708650039E878 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25CA75451F171CA90039E878 /* LZlib */ = {
+			isa = PBXGroup;
+			children = (
+				25CA75461F171CBB0039E878 /* LZPods.h */,
+				25CA75471F171CBB0039E878 /* LZPods.m */,
+			);
+			path = LZlib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 				25CA75331F1708650039E878 /* ViewController.m in Sources */,
 				25CA75301F1708650039E878 /* AppDelegate.m in Sources */,
 				25CA752D1F1708650039E878 /* main.m in Sources */,
+				25CA75481F171CBB0039E878 /* LZPods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +323,7 @@
 				25CA75411F1708650039E878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
