@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LiuCocosPods"
-  s.version      = "0.0.3"
-  s.summary      = "增加FMDB"
+  s.version      = "0.0.4"
+  s.summary      = "依赖FMDB"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -133,6 +133,6 @@ Help developer to quickly intergrate variety of payment methods
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+   s.dependency "FMDB"
 
 end
